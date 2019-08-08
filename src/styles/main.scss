@@ -9,7 +9,7 @@ line-height: 23px;
   display: grid;
   grid-template-columns: repeat(4, 223px);
   grid-template-rows: 240px 240px 240px;
-  grid-gap: 10px;
+  grid-gap: 25px;
 }
 
 .person {
@@ -83,6 +83,6 @@ align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 223px);
     grid-template-rows: 240px 240px 240px;
-    grid-gap: 10px;
+    grid-gap: 25px;
   }
 }
