@@ -5,14 +5,14 @@
 }
 
 .people {
-  width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 30px 55px;
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  grid-template-rows: 240px 240px 240px;
+  grid-gap: 10px;
 }
 
 .person {
-  margin: 30px 15px 10px;
   transition: 1s;
   height: 231px;
 }
@@ -78,16 +78,12 @@
 }
 
 @media screen and (max-width: 999px) {
-  .person {
-    margin: 30px 30px 10px;
-  }
-
-  .person:nth-of-type(odd) {
-    margin: 30px 30px 10px 100px;
-  }
-
   .people {
-    width: 740px;
+    margin: 30px 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 223px);
+    grid-template-rows: 240px 240px 240px;
+    grid-gap: 10px;
   }
 }
 
