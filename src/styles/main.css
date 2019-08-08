@@ -73,7 +73,7 @@
   height: 264px;
   background: #eee;
   transform: scale(1.2);
-  transition: 1s;
+  transition: background-color 0.1ms, transform 1s;
   border-radius: 10px;
 }
 
