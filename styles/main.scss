@@ -15,13 +15,13 @@ line-height: 23px;
 .person {
   transition: 1s;
   height: 231px;
-
 }
 
 .person .photo img:hover {
   transition: 0.8s;
   border-radius: 60px;
 }
+
 .photo{
   display: flex;
   align-items: center;
@@ -72,10 +72,9 @@ align-items: center;
   height: 264px;
   background: #eee;
   transform: scale(1.2);
-  transition: 1s;
+  transition: background-color 0.1ms, transform 1s;
   border-radius: 10px;
 }
-
 
 @media screen and (max-width: 999px) {
   .people {
