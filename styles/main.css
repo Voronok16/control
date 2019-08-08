@@ -8,7 +8,7 @@
   margin: 30px 55px;
   display: grid;
   grid-template-columns: repeat(4, 223px);
-  grid-template-rows: 240px 240px 240px;
+  grid-template-rows: repeat(5, 240px);
   grid-gap: 25px;
 }
 
@@ -82,7 +82,7 @@
     margin: 30px 55px;
     display: grid;
     grid-template-columns: repeat(2, 223px);
-    grid-template-rows: 240px 240px 240px;
+    grid-template-rows: repeat(5, 240px);
     grid-gap: 25px;
   }
 }
