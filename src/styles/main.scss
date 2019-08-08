@@ -13,12 +13,13 @@ line-height: 23px;
 }
 
 .person {
-  transition: 1s;
+  transition: background-color 0.1ms,  transform 1s;
+  background-color:white;
   height: 231px;
 }
 
 .person .photo img:hover {
-  transition: 0.8s;
+  // transition: 1s;
   border-radius: 60px;
 }
 
@@ -59,6 +60,7 @@ color: #2F4F4F;
 justify-content: center;
 align-items: center;
 }
+
 .person:hover .extra {
   visibility: visible;
 }
