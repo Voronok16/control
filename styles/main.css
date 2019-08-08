@@ -13,12 +13,12 @@
 }
 
 .person {
-  transition: 1s;
+  transition: background-color 0.1ms, transform 1s;
+  background-color: white;
   height: 231px;
 }
 
 .person .photo img:hover {
-  transition: 0.8s;
   border-radius: 60px;
 }
 
